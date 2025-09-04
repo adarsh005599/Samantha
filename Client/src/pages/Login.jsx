@@ -61,7 +61,7 @@ const LoginPage = () => {
             <input
               type="password"
               className="w-full text-black px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:outline-none"
-              placeholder="••••••••"
+              placeholder="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
