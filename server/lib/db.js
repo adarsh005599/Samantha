@@ -2,12 +2,23 @@ import mongoose from "mongoose";
 
 //fn to connet with db
 
-export const connetdb =  async() =>{
-    try { 
-        mongoose.connection.on("connected", ()=> console.log("database connected "))
-        await mongoose.connect(`${process.env.MONGODB_URI}/she's Mine`)
+// export const connetdb =  async() =>{
+//     try { 
+//         mongoose.connection.on("connected", ()=> console.log("database connected "))
+//         await mongoose.connect(`${process.env.MONGODB_URI}/she's Mine`)
         
+//     } catch (error) {
+//         console.log("connection failed", error);
+//     }
+// }
+
+export const connectdb  = async() => {
+    try {
+        mongoose.connection.on("connected", ()=> console.log("database connected!!"))
+        await mongoose.connect(`${process.env.MONGODB_URI}/she's Mine`)
     } catch (error) {
-        console.log("connection failed", error);
+        console.log("connection failed!", error)
     }
 }
+// mongoose.connection.on("...")
+ mongoose.connect(`$ {process.env.}`)

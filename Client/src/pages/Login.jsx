@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SideBar from "../components/SideBar";
 
 const LoginPage = () => {
   // 🔹 States for form fields
@@ -13,7 +14,7 @@ const LoginPage = () => {
       setError("Both fields are required!");
       return;
     }
-
+ 
     // Dummy login logic
     console.log("Logging in with:", { email, password });
     setError(""); // clear error
@@ -41,7 +42,7 @@ const LoginPage = () => {
           {/* Email */}
           <div>
             <label className="block text-gray-700 font-medium mb-2">
-              Email Address
+              Email 
             </label>
             <input
               type="email"
@@ -92,3 +93,5 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
+

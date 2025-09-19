@@ -41,7 +41,7 @@ const ChatBox = () => {
           <div className="h-full flex flex-col items-center justify-center gap-2 text-primary">
             <img src={assets.her_logo} className="w-full max-w-56 sm:max-w-68" alt="Logo" />
             <p className="mt-5 text-4xl sm:text-6xl text-center text-orange-800 dark:text-white">
-              What's in your Mind🤨
+              What's in your Mind😊
             </p>
           </div>
         )}
@@ -49,7 +49,7 @@ const ChatBox = () => {
           <Message key={index} Message={message} />
         ))}
       </div> 
-
+      
       {/* Three dot animations */}
      { loading && <div className='loader flex items-center gap-1.5'>
         <div className='w-1.5 h-1.5 rounded-full bg-gray-500 dark:bg-white animate-bounce'></div>
