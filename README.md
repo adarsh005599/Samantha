@@ -2,6 +2,12 @@
 
 ✨ Coming Soon – Something Incredible is On the Way ✨
 
+<p align="center">
+  <img src="Client/src/assets/Screenshot%20(80).png" alt="lending Page" width="300"/>
+  <img src="Client/src/assets/Screenshot%20(81).png" alt="community page" width="300"/>
+  <img src="Client/src/assets/Screenshot%20(82).png" alt="Credit's page" width="300"/>
+</p>
+
 Samantha is your personal AI-powered companion built on the MERN stack (MongoDB, Express, React, Node.js).
 It offers real-time chat, voice interaction, and smart integrations – designed with a clean React + TailwindCSS frontend and scalable backend APIs.
 
