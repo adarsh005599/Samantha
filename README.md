@@ -1,6 +1,6 @@
 🪄 Samantha AI – Full Stack MERN Project
 
-✨ Coming Soon – Something Incredible is On the Way ✨
+✨ Coming Soon – Something Incredible is On the Way ✨ She is coming, just lost in someone arms. 
 
 <p align="center">
   <img src="Client/src/assets/Screenshot%20(80).png" alt="lending Page" width="300"/>
